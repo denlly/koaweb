@@ -1,0 +1,696 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>项目展示</title>
+
+    <!-- Bootstrap core CSS -->
+    <!--<link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="cdn/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="dist/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="css/carousel.css" rel="stylesheet">
+</head>
+
+<body class="project_page">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top m_header_navbar" role="navigation">
+        <div class="navbar navbar-inverse">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="container">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="navbar-header m_logout_block">
+                        <form class="navbar-form navbar-left m_top_form">
+                            <div class="form-group">
+                                <input type="text" placeholder="用户名" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" placeholder="密码" class="form-control">
+                            </div>
+                            <button type="submit" class="btn btn-success">登录</button>
+                        </form>
+                        <ul class="nav navbar-nav navbar-left">
+                            <li><a href="account.html">账号查询</a></li>
+                            <li class="splite"></li>
+                            <li><a href="passport.html">忘记密码</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-header m_login_block" style="display: none;">
+                        <img src="image/avater.png" class="img img-circle" />
+                        高玉梅，欢迎您！
+                        <a href="#" target="_self"><em class="glyphicon glyphicon-home"></em>个人工作室</a>
+                        <a href="#" target="_self"><em class="glyphicon glyphicon-log-out"></em>退出</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse navbar-right">
+                        <span class="navbar-brand"><em class="glyphicon glyphicon-earphone"></em>&nbsp;400-789-1212</span>
+                    </div>
+                </div>
+                <!--/.navbar-collapse -->
+        </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="navbar navbar-inverse m_header_logo" role="navigation">
+            <div class="container m_con_logo">
+                <a class="navbar-brand m_logo" href="#">
+                    <img src="image/logo.png" class="img img-responsive" />
+                </a>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar_m">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navbar_m" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right m_nav">
+                        <li class="active"><a href="#">首页</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">专业服务 <span class="glyphicon glyphicon-chevron-down" style="font-size: 10px;"></span></a>
+                            <ul class="dropdown-menu">
+                                <em class="coner"></em>
+                                <li><a href="#"><i class="glyphicon glyphicon-chevron-right nav_icon"></i>培训类型</a></li>
+                                <li><a href="#"><i class="glyphicon glyphicon-chevron-right nav_icon"></i>培训特色</a></li>
+                                <li><a href="#"><i class="glyphicon glyphicon-chevron-right nav_icon"></i>课程体系</a></li>
+                                <li><a href="#"><i class="glyphicon glyphicon-chevron-right nav_icon"></i>服务体系</a></li>
+                                <li><a href="#"><i class="glyphicon glyphicon-chevron-right nav_icon"></i>项目合作</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#show">项目展示</a></li>
+                        <li><a href="#Action">多彩活动</a></li>
+                        <li><a href="#learn">移动学习</a></li>
+                        <li><a href="#bank">学分银行</a></li>
+                        <li><a href="#contact">常见问题</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">关于我们 <span class="glyphicon glyphicon-chevron-down" style="font-size: 10px;"></span></a>
+                            <ul class="dropdown-menu">
+                                <em class="coner"></em>
+                                <li><a href="#"><i class="glyphicon glyphicon-chevron-right nav_icon"></i>关于我们</a></li>
+                                <li><a href="#"><i class="glyphicon glyphicon-chevron-right nav_icon"></i>联系我们</a></li>
+                                <!--<li role="separator" class="divider"></li>-->
+                                <!--<li class="dropdown-header">Nav header</li>-->
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron b_banner">
+        <img src="image/bankbanner.png" class="img img-responsive img_responsive_control" alt="Responsive image">
+    </div>
+    <div class="container-fluid b_bread">
+        <div class="container">
+            <h4>当前位置：<a href="#" target="_blank">首页</a> > <span><a href="#" target="_blank">行业资讯/最新动态</a></span> > “国培计划”--吉林省信息技术应用能力项目的一次圆目的一次圆满-吉满</h4>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="collapse navbar-collapse m_block_title">
+                <h1>项目展示</h1>
+                <div class="center-block">
+                    <h5 class="text-uppercase">Projects show</h5>
+                </div>
+            </div>
+        </div>
+        <div class="container projectshow_area">
+            <div class="row">
+                <div class="col-lg-1">省份</div>
+                <div class="col-lg-11">
+                    <span><a href="#" class="active">全部</a></span>
+                    <span><a href="#">示范项目</a></span>
+                    <span><a href="#">北京</a></span>
+                    <span><a href="#">天津</a></span>
+                    <span><a href="#">辽宁</a></span>
+                    <span><a href="#">江苏</a></span>
+                    <span><a href="#">浙江</a></span>
+                    <span><a href="#">福建</a></span>
+                    <span><a href="#">山东</a></span>
+                    <span><a href="#">广东</a></span>
+                    <span><a href="#">重庆</a></span>
+                    <span><a href="#">云南</a></span>
+                    <span><a href="#">湖北</a></span>
+                    <span><a href="#">河南</a></span>
+                    <span><a href="#">湖南</a></span>
+                    <span><a href="#">贵州</a></span>
+                    <span><a href="#">新疆兵团</a></span>
+                    <span><a href="#">黑龙江</a></span>
+                    <span><a href="#">内蒙古</a></span>
+                    <span><a href="#">江西</a></span>
+                    <span><a href="#">陕西</a></span>
+                    <span><a href="#">甘肃</a></span>
+                    <span><a href="#">宁夏</a></span>
+                    <span><a href="#">上海</a></span>
+                    <span><a href="#">河北</a></span>
+                    <span><a href="#">吉林</a></span>
+                    <span><a href="#">安徽</a></span>
+                    <span><a href="#">广西</a></span>
+                    <span><a href="#">海南</a></span>
+                    <span><a href="#">四川</a></span>
+                    <span><a href="#">青海</a></span>
+                    <span><a href="#">西藏</a></span>
+                    <span><a href="#">新疆</a></span>
+                    <span><a href="#">山西</a></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-1">年份</div>
+                <div class="col-lg-11">
+                    <span><a href="#">全部</a></span>
+                    <span><a href="#">2016年</a></span>
+                    <span><a href="#">2015年</a></span>
+                    <span><a href="#">2014年</a></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container Scroll_State_Control">
+            <ul class="expert_toggle">
+                <li class="active menu_control_item">
+                    <em>●</em>
+                    <span>全部项目</span>
+                </li>
+                <li class="menu_control_item">
+                    <em>●</em>
+                    <span>示范性国培项目</span>
+                </li>
+                <li class="menu_control_item">
+                    <em>●</em>
+                    <span>中西部国培项目</span>
+                </li>
+                <li class="menu_control_item">
+                    <em>●</em>
+                    <span>省级培训项目</span>
+                </li>
+                <li class="menu_control_item">
+                    <em>●</em>
+                    <span>地市级培训项目</span>
+                </li>
+                <li class="menu_control_item">
+                    <em>●</em>
+                    <span>区县级培训项目</span>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="table_block">
+                <div class="table_title">
+                    <em class="projectshow_icon icon_a"></em>
+                    <span>示范性国培项目</span>
+                    <h5 class="pull-right">共 <em>16</em> 条数据</h5>
+                </div>
+                <div id="table_content" class="table_content">
+                    <table id="table" class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th class="text-center">年份</th>
+                                <th class="text-center">项目名称</th>
+                                <th class="text-center">项目类型</th>
+                                <th class="text-center">区域</th>
+                                <th class="text-center">时间段</th>
+                                <th class="text-center">状态</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="hover click_control" data-url="http://www.baidu.com" data-target="_blank">
+                                <td class="text-center">2016年 </td>
+                                <td class="text-center">2016远程跟进--“国培计划”—宁夏中西部项目培育性示范县（大武口区）置换脱产研修</td>
+                                <td class="text-center">示范性国培项目 </td>
+                                <td class="text-center">区域</td>
+                                <td class="text-center">2016-07-05~2016-11-08</td>
+                                <td class="text-center">进行中</td>
+                            </tr>
+                            <tr class="hover click_control" data-url="http://www.baidu.com" data-target="_blank">
+                                <td class="text-center">2016年 </td>
+                                <td class="text-center">2016中西部国培--新疆兵团2014年“国培计划”
+—示范性教师工作坊高端研修项目（小学数学、初中
+语文、初中英语）和2014年“国培计划”—示范性幼
+儿园教师远程项目补充课程
+                                </td>
+                                <td class="text-center">示范性国培项目 </td>
+                                <td class="text-center">区域</td>
+                                <td class="text-center">2016-07-05~2016-11-08</td>
+                                <td class="text-center">进行中</td>
+                            </tr>
+                            <tr class="hover click_control" data-url="http://www.baidu.com" data-target="_blank">
+                                <td class="text-center">2016年 </td>
+                                <td class="text-center">2016远程跟进--“国培计划”—宁夏中西部项目培
+育性示范县（大武口区）置换脱产研修</td>
+                                <td class="text-center">示范性国培项目 </td>
+                                <td class="text-center">区域</td>
+                                <td class="text-center">2016-07-05~2016-11-08</td>
+                                <td class="text-center">进行中</td>
+                            </tr>
+                            <tr class="end">
+                                <td class="text-center">2016年 </td>
+                                <td class="text-center">2016远程跟进--“国培计划”—宁夏中西部项目培
+育性示范县（大武口区）置换脱产研修</td>
+                                <td class="text-center">示范性国培项目 </td>
+                                <td class="text-center">区域</td>
+                                <td class="text-center">2016-07-05~2016-11-08</td>
+                                <td class="text-center">已结束</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="table_bar">
+                        <em class="center-block pull pull_down pull_control" aria-controls="#table_content" aria-flowto="#table"></em>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <div class="container">
+            <nav class="text-center">
+                <form class="form-inline" role="form">
+                    <ul class="pagination">
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#" class="active">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">末页</a></li>
+                        <li><span>共<em class="countpage"> 61 </em>页</span></li>
+                        <li><span><em class="listcount">1212</em>条</span></li>
+                        <li>
+                            <span>到</span>
+                            <input type="text" class="form-control col-lg-1 col-xs-1" id="Number3"><span>页</span></li>
+                        <li>
+                            <button type="submit" class="btn">GO</button></li>
+                    </ul>
+                </form>
+            </nav>
+        </div>
+
+        <div class="container">
+            <div class="table_block">
+                <div class="table_title">
+                    <em class="projectshow_icon icon_b"></em>
+                    <span>中西部国培项目</span>
+                </div>
+                <div class="table_content">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="text-center">年份</th>
+                                <th class="text-center">项目名称</th>
+                                <th class="text-center">项目类型</th>
+                                <th class="text-center">区域</th>
+                                <th class="text-center">时间段</th>
+                                <th class="text-center">状态</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-center">2016年 </td>
+                                <td class="text-center">2016远程跟进--“国培计划”—宁夏中西部项目培育性示范县（大武口区）置换脱产研修</td>
+                                <td class="text-center">示范性国培项目 </td>
+                                <td class="text-center">区域</td>
+                                <td class="text-center">2016-07-05~2016-11-08</td>
+                                <td class="text-center">进行中</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">2016年 </td>
+                                <td class="text-center">2016中西部国培--新疆兵团2014年“国培计划”
+—示范性教师工作坊高端研修项目（小学数学、初中
+语文、初中英语）和2014年“国培计划”—示范性幼
+儿园教师远程项目补充课程
+                                </td>
+                                <td class="text-center">示范性国培项目 </td>
+                                <td class="text-center">区域</td>
+                                <td class="text-center">2016-07-05~2016-11-08</td>
+                                <td class="text-center">进行中</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">2016年 </td>
+                                <td class="text-center">2016远程跟进--“国培计划”—宁夏中西部项目培
+育性示范县（大武口区）置换脱产研修</td>
+                                <td class="text-center">示范性国培项目 </td>
+                                <td class="text-center">区域</td>
+                                <td class="text-center">2016-07-05~2016-11-08</td>
+                                <td class="text-center">进行中</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+                <div class="container">
+            <nav class="text-center">
+                <form class="form-inline" role="form">
+                    <ul class="pagination">
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#" class="active">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">末页</a></li>
+                        <li><span>共<em class="countpage"> 61 </em>页</span></li>
+                        <li><span><em class="listcount">1212</em>条</span></li>
+                        <li>
+                            <span>到</span>
+                            <input type="text" class="form-control col-lg-1 col-xs-1" id="Number2"><span>页</span></li>
+                        <li>
+                            <button type="submit" class="btn">GO</button></li>
+                    </ul>
+                </form>
+            </nav>
+        </div>
+
+        <div class="container">
+            <div class="table_block">
+                <div class="table_title">
+                    <em class="projectshow_icon icon_c"></em>
+                    <span>省级培训项目</span>
+                </div>
+                <div class="table_content">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="text-center">年份</th>
+                                <th class="text-center">项目名称</th>
+                                <th class="text-center">项目类型</th>
+                                <th class="text-center">区域</th>
+                                <th class="text-center">时间段</th>
+                                <th class="text-center">状态</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-center">2016年 </td>
+                                <td class="text-center">2016远程跟进--“国培计划”—宁夏中西部项目培育性示范县（大武口区）置换脱产研修</td>
+                                <td class="text-center">示范性国培项目 </td>
+                                <td class="text-center">区域</td>
+                                <td class="text-center">2016-07-05~2016-11-08</td>
+                                <td class="text-center">进行中</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">2016年 </td>
+                                <td class="text-center">2016中西部国培--新疆兵团2014年“国培计划”
+—示范性教师工作坊高端研修项目（小学数学、初中
+语文、初中英语）和2014年“国培计划”—示范性幼
+儿园教师远程项目补充课程
+                                </td>
+                                <td class="text-center">示范性国培项目 </td>
+                                <td class="text-center">区域</td>
+                                <td class="text-center">2016-07-05~2016-11-08</td>
+                                <td class="text-center">进行中</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">2016年 </td>
+                                <td class="text-center">2016远程跟进--“国培计划”—宁夏中西部项目培
+育性示范县（大武口区）置换脱产研修</td>
+                                <td class="text-center">示范性国培项目 </td>
+                                <td class="text-center">区域</td>
+                                <td class="text-center">2016-07-05~2016-11-08</td>
+                                <td class="text-center">进行中</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="table_block">
+                <div class="table_title">
+                    <em class="projectshow_icon icon_d"></em>
+                    <span>地市级培训项目</span>
+                </div>
+                <div class="table_content">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="text-center">年份</th>
+                                <th class="text-center">项目名称</th>
+                                <th class="text-center">项目类型</th>
+                                <th class="text-center">区域</th>
+                                <th class="text-center">时间段</th>
+                                <th class="text-center">状态</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-center">2016年 </td>
+                                <td class="text-center">2016远程跟进--“国培计划”—宁夏中西部项目培育性示范县（大武口区）置换脱产研修</td>
+                                <td class="text-center">示范性国培项目 </td>
+                                <td class="text-center">区域</td>
+                                <td class="text-center">2016-07-05~2016-11-08</td>
+                                <td class="text-center">进行中</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">2016年 </td>
+                                <td class="text-center">2016中西部国培--新疆兵团2014年“国培计划”
+—示范性教师工作坊高端研修项目（小学数学、初中
+语文、初中英语）和2014年“国培计划”—示范性幼
+儿园教师远程项目补充课程
+                                </td>
+                                <td class="text-center">示范性国培项目 </td>
+                                <td class="text-center">区域</td>
+                                <td class="text-center">2016-07-05~2016-11-08</td>
+                                <td class="text-center">进行中</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">2016年 </td>
+                                <td class="text-center">2016远程跟进--“国培计划”—宁夏中西部项目培
+育性示范县（大武口区）置换脱产研修</td>
+                                <td class="text-center">示范性国培项目 </td>
+                                <td class="text-center">区域</td>
+                                <td class="text-center">2016-07-05~2016-11-08</td>
+                                <td class="text-center">进行中</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <nav class="text-center">
+                <form class="form-inline" role="form">
+                    <ul class="pagination">
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#" class="active">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">末页</a></li>
+                        <li><span>共<em class="countpage"> 61 </em>页</span></li>
+                        <li><span><em class="listcount">1212</em>条</span></li>
+                        <li>
+                            <span>到</span>
+                            <input type="text" min="1" class="form-control col-lg-1 col-xs-1" id="page"><span>页</span></li>
+                        <li>
+                            <button type="submit" class="btn">GO</button></li>
+                    </ul>
+                </form>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="table_block">
+                <div class="table_title">
+                    <em class="projectshow_icon icon_e"></em>
+                    <span>县区级培训项目</span>
+                </div>
+                <div class="table_content">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="text-center">年份</th>
+                                <th class="text-center">项目名称</th>
+                                <th class="text-center">项目类型</th>
+                                <th class="text-center">区域</th>
+                                <th class="text-center">时间段</th>
+                                <th class="text-center">状态</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-center">2016年 </td>
+                                <td class="text-center">2016远程跟进--“国培计划”—宁夏中西部项目培育性示范县（大武口区）置换脱产研修</td>
+                                <td class="text-center">示范性国培项目 </td>
+                                <td class="text-center">区域</td>
+                                <td class="text-center">2016-07-05~2016-11-08</td>
+                                <td class="text-center">进行中</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">2016年 </td>
+                                <td class="text-center">2016中西部国培--新疆兵团2014年“国培计划”
+—示范性教师工作坊高端研修项目（小学数学、初中
+语文、初中英语）和2014年“国培计划”—示范性幼
+儿园教师远程项目补充课程
+                                </td>
+                                <td class="text-center">示范性国培项目 </td>
+                                <td class="text-center">区域</td>
+                                <td class="text-center">2016-07-05~2016-11-08</td>
+                                <td class="text-center">进行中</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">2016年 </td>
+                                <td class="text-center">2016远程跟进--“国培计划”—宁夏中西部项目培
+育性示范县（大武口区）置换脱产研修</td>
+                                <td class="text-center">示范性国培项目 </td>
+                                <td class="text-center">区域</td>
+                                <td class="text-center">2016-07-05~2016-11-08</td>
+                                <td class="text-center">进行中</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <nav class="text-center">
+                <form class="form-inline" role="form">
+                    <ul class="pagination">
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#" class="active">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">末页</a></li>
+                        <li><span>共<em class="countpage"> 61 </em>页</span></li>
+                        <li><span><em class="listcount">1212</em>条</span></li>
+                        <li>
+                            <span>到</span>
+                            <input type="text" min="1" class="form-control col-lg-1 col-xs-1" id="Number1"><span>页</span></li>
+                        <li>
+                            <button type="submit" class="btn">GO</button></li>
+                    </ul>
+                </form>
+            </nav>
+        </div>
+
+        <div class="container">
+            <div class="m_moreblock text-center row">
+                <div class="btn-group col-lg-1 col-lg-offset-5">
+                    <button type="button" class="btn btn-default ">查看全部&gt;&gt;</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid m_footer_border">
+        </div>
+        <div class="container-fluid defalut_container_footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <ul>
+                                    <li class="title">奥鹏教师教育网</li>
+                                    <li>© Copyright 2009 - 2014.</li>
+                                    <li>ourteacher.com.cn.</li>
+                                    <li>All Rights Reserved</li>
+                                    <li>京ICP备05014615号-13</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <ul>
+                                    <li class="title">友情链接</li>
+                                    <li><a href="#">中华人民共和国教育部</a></li>
+                                    <li><a href="#">中华人民共和国财政部</a></li>
+                                    <li><a href="#">BBC</a></li>
+                                    <li><a href="#">中华人民共和国教育部</a></li>
+                                    <li><a href="#">中华人民共和国财政部</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <img src="image/wx1.png" class="img center-block" />
+                            <span class="img center-block">奥鹏教师微信公众号</span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <img src="image/wx2.png" class="img center-block" />
+                            <span class="center-block">奥鹏教师同学APP</span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <img src="image/wx3.png" class="img center-block" />
+                            <span class="center-block">奥鹏教师秘书APP</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!--<div class="col-sm-3 col-xs-6 get-in-touch">
+                <h4>KONTAKT</h4>
+                <span class="phone"><a href="tel:+4373299700252" data-event-category="Telephone" data-event-action="tel" data-event-label="Telephone link / Footer">+43 732 997002-52</a></span>
+                <span class="mail"><a href="mailto:hello@whoopapp.com" onclick="ga(&apos;send&apos;, &apos;event&apos;, &apos;Email&apos;, &apos;click&apos;, &apos;Email / Footer link &apos;);">hello@whoopapp.com</a></span>
+
+                <ul class="get-in-touch-social">
+                    <!--
+                  <li class="social-email global-icon-email"><a href="mailto:hueseyin@whoopapp.com">Email</a></li>
+
+                    <li class="social-linkedin global-icon-linkedin"><a href="https://www.linkedin.com/company/10099106" target="_blank">LinkedIn</a></li>
+                    <li class="social-twitter global-icon-twitter"><a href="https://twitter.com/whoop_app" target="_blank">Twitter</a></li>
+                    <li class="social-facebook global-icon-facebook"><a href="https://www.facebook.com/750568905024967" target="_blank">Twitter</a></li>
+                    <li class="social-xing global-icon-xing"><a href="https://www.xing.com/companies/whoop!bid-managementforgoogleshopping" target="_blank">XING</a></li>
+                    <li class="social-google-plus global-icon-google-plus"><a class="gplus-footer-link" href="https://plus.google.com/109507560161080721469/posts" target="_blank">GooglePlus</a></li>
+                </ul>
+
+            </div>-->
+
+        </div>
+
+    </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>-->
+    <script src="cdn/jquery.min.js"></script>
+    <script src="cdn/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="dist/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $(window).load(function () {
+            var MenuControl = new window.MenuControl($(".expert_toggle")[0], true);
+            GotoTop();
+        });
+    </script>
+</body>
+</html>

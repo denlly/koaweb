@@ -1,0 +1,286 @@
+/*---------------------------------------------------------------------------------------------------------header状态条*/
+.m_header_navbar  {
+    height: 3rem;
+    background-color: #293037;
+    margin-bottom:0;
+    border-width:0;
+}
+.m_header_navbar .navbar-inverse {
+    margin-bottom:0;
+    border-width:0;
+}
+.m_header_navbar .navbar-form {
+    padding:0;
+    margin-left:0;
+    margin-top:.625rem;
+}
+.m_header_navbar .m_top_form .form-control {
+    margin-left:0;
+    margin-right:0.875rem;
+    height: 30px;
+    width: 161px;
+    border-radius:0;
+    margin: auto 14px;
+    margin-left:0;
+    line-height:1rem;
+    font-size:.75rem;
+}
+.m_header_navbar .m_top_form .btn-success {
+    width: 60px;
+    height: 30px;
+    background-color: #ff5f3f;
+    border-color: #ff5f3f;
+    font-size: .75rem;
+    line-height: .75rem;
+    border-radius:0;
+    margin-left:.2rem;
+    margin-right:.375rem;
+
+}
+.m_header_navbar a {
+    font-size:.625rem;
+}
+.m_header_navbar li {
+    font-size: 14px;
+    line-height: 2rem;
+}
+.m_header_navbar li.splite {
+    width: 1px;
+    background-color: #D0D3D4;
+    height: 1rem;
+    margin-top: 1rem;
+
+}
+.m_header_navbar .m_login_block {
+    font-size: 0.75rem;
+    line-height: 3rem;
+    color: #97a1ab;
+}
+.m_header_navbar .m_login_block a {
+    margin-left: 1.5rem;
+    color: #97a1ab;
+}
+.m_header_navbar .m_login_block a:hover {
+    color: #fff;
+}
+.m_header_navbar .m_login_block img {
+    width: 34px;
+    height: 34px;
+}
+.m_header_navbar .navbar-brand {
+    font-size: 0.75rem;
+    color:#fff;
+}
+
+.m_header_navbar .navbar > .container .navbar-brand,
+.m_header_navbar .navbar > .container-fluid .navbar-brand {
+    margin-left: 0;
+    padding:0.9375rem 0;
+}
+
+.m_header_navbar  .navbar > .container .navbar-brand, 
+.m_header_navbar  .navbar > .container-fluid .navbar-brand {
+    margin-left: 0;
+    padding:0.9375rem 0;
+}
+.m_header_navbar .navbar-inverse .navbar-nav > li > a:hover,
+.m_header_navbar .navbar-inverse .navbar-nav > li > a:focus {
+    background:none;
+}
+.m_header_navbar span.navbar-brand {
+
+}
+@media (max-width: 1200px) {
+
+.m_header_navbar .m_nav > li {
+        display: block;
+        margin: 0.8rem 0.5rem;
+    }
+
+}
+@media (min-width: 768px) {
+    .navbar-right {
+        margin-right:0;
+    }
+}
+
+/*---------------------------------------------------------------------------------------------------------状态条*/
+
+
+/*---------------------------------------------------------------------------------------------------------导航条*/
+.m_header_logo {
+    background-color: #fff;
+    margin: 0;
+    border-width: 0;
+}
+.m_header_logo .navbar-brand {
+    font-size: .75rem;
+}
+.m_header_logo .m_con_logo {
+    height: 6rem;
+    max-width: 75rem;
+}
+.m_header_logo .m_logo {
+    padding: 0;
+    height: 100%;
+    padding-top:1rem;
+}
+.m_header_logo .m_logo img {
+    margin-top: .5625rem;
+    width:18.125rem;
+    height:2.75rem;
+}
+.m_header_logo #navbar_m {
+    height: 5.8rem;
+    background: #fff;
+    border-width: 0;
+    z-index:20; 
+    padding-left:0;
+    padding-right:0;
+}
+
+.m_header_logo .dropdown-menu > li > a {
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align:center;
+}
+.m_header_logo .open>a {
+    background-color:#FF5F3F;
+    /*border-bottom: solid .2rem #FF5F3F;*/
+}
+.m_header_logo .m_nav {
+    height: 6rem;
+    max-width:54rem;
+}
+.m_header_logo .m_nav > li {
+        display: inline-block;
+        height: 100%;
+        width: 6.75rem;
+        white-space: nowrap;
+    }
+.m_header_logo .m_nav > li > a {
+    line-height: 6.125rem;
+    font-size: 1.125rem;
+    display: block;
+    padding: 0;
+    -moz-transition: color 0s linear; /*Firefox 4 */
+    -webkit-transition: color 0s linear; /*Safari ºÍ Chrome */
+    -o-transition: color 0s linear; /* Opera */
+    transition: color 0s linear;
+}
+.m_header_logo .m_nav .nav_icon {
+    font-size: 0.5rem;
+}
+.m_header_logo .m_nav > li > a {
+    display: inline-block;
+    line-height: 6rem;
+    text-align: center;
+    font-size: 1.125rem;
+    height: 100%;
+    width: 100%;
+    border-bottom: solid 0.2rem #FFF;
+    color: #0B0B0B;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.m_nav > li.open > a {
+    border-bottom: solid 0.2rem #ff5f3f;
+}
+
+
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > li > a:focus, 
+.navbar-inverse .navbar-nav > li > a:hover {
+    border-bottom-color: #d95136;
+    background-color:#ff5f3f;
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: #fff;
+    color: #242424;
+}
+
+.m_header_logo .navbar-nav > li.active > a,
+.m_header_logo .navbar-nav > li.active > a:hover {
+    color:#ff5f3f;
+}
+
+
+.navbar-inverse .navbar-nav > .open > a,
+/*.navbar-inverse .navbar-nav > .open > a:focus,*/ 
+.navbar-inverse .navbar-nav > .open > a:hover {
+    background-color: #ff5F3f;
+    border-bottom-color: #d95136;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    margin-top: .3125rem;
+    min-width: 6.75rem;
+}
+
+.dropdown-menu > li > a {
+    font-size: 1rem;
+    line-height: 3rem;
+    padding:0 0.625rem;
+}
+
+.dropdown-menu > li > a:hover {
+    color: #FF5F3F;
+}
+
+.dropdown-menu em {
+    background: url("image/coner.png") no-repeat 10% center;
+    width: 100%;
+    height: 6px;
+    margin-top: -11px;
+    margin-left: 0;
+    display: block;
+}
+.navbar-nav > li > .dropdown-menu {
+    left: 0;
+}
+@media (min-width: 768px) and (max-width: 992px)  {
+        .m_header_logo .m_logo img {
+            width:9.0625rem;
+            height:1.375rem;
+    }
+    .m_header_logo .m_nav > li {
+        width:4.5rem;
+    }
+    .m_header_logo .m_nav > li > a {
+        font-size: .75rem;
+        padding-left:0;
+        padding-right:.1rem;
+    }
+    .dropdown-menu {
+        margin-left:-1rem;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .m_header_logo .m_logo img {
+
+    }
+    .m_header_logo .m_nav > li {
+        width:5rem;
+    }
+    .m_header_logo .m_nav > li > a {
+        font-size: .85rem;
+        padding-left:.5rem;
+        padding-right:.5rem;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .navbar > .container .navbar-brand {
+        margin-left:0;
+    }
+}
+
+/*---------------------------------------------------------------------------------------------------------导航条end*/

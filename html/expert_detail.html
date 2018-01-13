@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>专家介绍</title>
+
+    <!-- Bootstrap core CSS -->
+    <!--<link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="cdn/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="dist/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="css/carousel.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top m_header_navbar">
+        <div class="navbar navbar-inverse">
+            <div class="container ">
+                <div class="navbar-header m_logout_block" style="display: none;">
+                    <form class="navbar-form navbar-left m_top_form">
+                        <div class="form-group">
+                            <input type="text" placeholder="用户名" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="密码" class="form-control">
+                        </div>
+                        <button type="submit" class="btn btn-success">登录</button>
+                    </form>
+                    <ul class="nav navbar-nav navbar-left hidden-xs hidden-sm">
+                        <li><a href="#">账号查询</a></li>
+                        <li class="splite"></li>
+                        <li><a href="#">忘记密码</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-header m_login_block">
+                    <img src="image/avater.png" class="img img-circle" />
+                    高玉梅，欢迎您！
+                    <a href="#" target="_self"><em class="glyphicon glyphicon-home"></em>个人工作室</a>
+                    <a href="#" target="_self"><em class="glyphicon glyphicon-log-out"></em>退出</a>
+                </div>
+                <div id="navbar" class="navbar-collapse navbar-right">
+                    <a class="navbar-brand" href="#"><em class="glyphicon glyphicon-earphone"></em>&nbsp;400-789-1212</a>
+                </div>
+                <!--/.navbar-collapse -->
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="navbar navbar-inverse m_header_logo" role="navigation">
+            <div class="container m_con_logo">
+                <div>
+                    <a class="navbar-brand m_logo" href="#">
+                        <img src="image/logo.png" class="img img-responsive" width="290" height="44" />
+                    </a>
+                </div>
+                <div id="navbar_m" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right m_nav">
+                        <li class="active"><a href="#">首页</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">专业服务 <span class="glyphicon glyphicon-chevron-down" style="font-size: 10px;"></span></a>
+                            <ul class="dropdown-menu">
+                                <em class="coner"></em>
+                                <li><a href="#"><i class="glyphicon glyphicon-chevron-right nav_icon"></i>培训类型</a></li>
+                                <li><a href="#"><i class="glyphicon glyphicon-chevron-right nav_icon"></i>培训特色</a></li>
+                                <li><a href="#"><i class="glyphicon glyphicon-chevron-right nav_icon"></i>课程体系</a></li>
+                                <li><a href="#"><i class="glyphicon glyphicon-chevron-right nav_icon"></i>服务体系</a></li>
+                                <li><a href="#"><i class="glyphicon glyphicon-chevron-right nav_icon"></i>项目合作</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#show">项目展示</a></li>
+                        <li><a href="#Action">多彩活动</a></li>
+                        <li><a href="#learn">移动学习</a></li>
+                        <li><a href="#bank">学分银行</a></li>
+                        <li><a href="#contact">常见问题</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">关于我们 <span class="glyphicon glyphicon-chevron-down" style="font-size: 10px;"></span></a>
+                            <ul class="dropdown-menu">
+                                <em class="coner"></em>
+                                <li><a href="#"><i class="glyphicon glyphicon-chevron-right nav_icon"></i>关于我们</a></li>
+                                <li><a href="#"><i class="glyphicon glyphicon-chevron-right nav_icon"></i>联系我们</a></li>
+                                <!--<li role="separator" class="divider"></li>-->
+                                <!--<li class="dropdown-header">Nav header</li>-->
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron b_banner">
+        <img src="image/bankbanner.png" class="img img-responsive img_responsive_control" alt="Responsive image">
+    </div>
+    <div class="container-fluid b_bread">
+        <div class="container">
+            <h4>当前位置：<a href="#" target="_blank">首页</a> > <span><a href="#" target="_blank">行业资讯/最新动态</a></span> > “国培计划”--吉林省信息技术应用能力项目的一次圆目的一次圆满-吉满</h4>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="collapse navbar-collapse m_block_detail_title bottomline">
+                <h1>专家介绍</h1>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <em class="m_dot">●</em><h1>王芯</h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul class="pull-right m_tags">
+                            <li>南京师范大学</li>
+                            <li>信息技术</li>
+                            <li>教授</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="container">
+        <div class="m_block_detail_content">
+            <p>
+                <img src="image/expert_img.png" class="img img-responsive center-block margin_t_110 margin_b_110" />
+            </p>
+            <p>
+                高老板，女。山东人士。共产党员。研究生毕业。曾任中共中央教育部下属师范司所合作的培训机构任职部门副经理、产品经理、优秀员工、当责大拿。性格开朗，活泼，直率。口头禅“啊呀~”身为一个有原则，有党性的人，她不同流俗、不欺暗室、不忘沟壑、 赤子之心、德厚流光、 高情远致、高山景行、铁中铮铮、头角峥嵘、无出其右、裒然举首、豁达大度、严以律己、宽以待人、以直报怨、以德报怨、将伯之助、解衣推食、救死扶伤、绝甘分少、不耻最后、乘风破浪、顶天立地、鸿鹄之志、九天揽月、发愤图强、奋发图强、我武惟扬、坚苦卓绝、姜桂之性、宁死不屈、威武不屈 、不忮不求、澹泊寡欲、奉公守法、两袖清风、先公后私、纤尘不染、洗手奉职、枵腹从公 ……高老板，女。山东人士。共产党员。研究生毕业。曾任中共中央教育部下属师范司所合作的培训机构任职部门副经理、产品经理、优秀员工、当责大拿。性格开朗，活泼，直率。口头禅“啊呀~”身为一个有原则，有党性的人，她不同流俗、不欺暗室、不忘沟壑、 赤子之心、德厚流光、 高情远致、高山景行、铁中铮铮、头角峥嵘、无出其右、裒然举首、豁达大度、严以律己、宽以待人、以直报怨、以德报怨、将伯之助、解衣推食、救死扶伤、绝甘分少、不耻最后、乘风破浪、顶天立地、鸿鹄之志、九天揽月、发愤图强、奋发图强、我武惟扬、坚苦卓绝、姜桂之性、宁死不屈、威武不屈 、不忮不求、澹泊寡欲、奉公守法、两袖清风、先公后私、纤尘不染、洗手奉职、枵腹从公 …合作的培训机构任职部门副经理、产品经理、优秀员工、当责大拿。性格开朗，活泼，直率。口头禅“啊呀~”身为一个有原则，有党性的人，她不同流俗、不欺暗室、不忘沟壑、 赤子之心、德厚流光、 高情远致、高山景行、铁中铮铮、头角峥嵘、无出其右、裒然举首、豁达大度、严以律己、宽以待人、以直报怨、以德报怨、将伯之助、解衣推食、救死扶伤、绝甘分少、不耻最后、乘风破浪、顶天立地、鸿鹄之志、九天揽月、发愤图强、奋发图强、我武惟扬、坚苦卓绝、姜桂之性、宁死不屈、威武不屈 、不忮不求、澹泊寡欲、奉公守法、两袖清风、先公后私、纤尘不染、洗手奉职、枵腹从公…
+            </p>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="nd_nice img-circle center-block">
+            <span class="glyphicon glyphicon-heart icon"></span>
+            <br />
+            <span class="number">300000</span><br />
+            赞
+        </div>
+    </div>
+    </div>
+
+       <footer>
+        <div class="container-fluid m_footer_border">
+        </div>
+        <div class="container-fluid defalut_container_footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li class="title">奥鹏教师教育网</li>
+                                    <li>© Copyright 2009 - 2014.</li>
+                                    <li>ourteacher.com.cn.</li>
+                                    <li>All Rights Reserved</li>
+                                    <li>京ICP备05014615号-13</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li class="title">友情链接</li>
+                                    <li><a href="#">中华人民共和国教育部</a></li>
+                                    <li><a href="#">中华人民共和国财政部</a></li>
+                                    <li><a href="#">BBC</a></li>
+                                    <li><a href="#">中华人民共和国教育部</a></li>
+                                    <li><a href="#">中华人民共和国财政部</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="col-lg-4">
+                            <img src="image/wx1.png" class="img center-block" />
+                            <span class="img center-block">奥鹏教师微信公众号</span>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="image/wx2.png" class="img center-block" />
+                            <span class="center-block">奥鹏教师同学APP</span>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="image/wx3.png" class="img center-block" />
+                            <span class="center-block">奥鹏教师秘书APP</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>-->
+    <script src="cdn/jquery.min.js"></script>
+    <script src="cdn/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="dist/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

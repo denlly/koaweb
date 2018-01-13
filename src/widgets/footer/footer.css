@@ -1,0 +1,8 @@
+.widget-footer {
+    margin-top:25px;
+    .center-block {
+        text-align: center;
+        color: #9E9E9E;
+        font-family: "Comic Sans MS";
+    }
+}

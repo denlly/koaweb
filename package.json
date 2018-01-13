@@ -1,0 +1,46 @@
+{
+  "name": "koaweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf build && gulp && webpack",
+    "run": "supervisor build/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "copy-webpack-plugin": "^4.3.1",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "koa-static": "^4.0.2",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "mocha": "^4.1.0",
+    "postcss-css-variables": "^0.8.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-loader": "^2.0.9",
+    "precss": "^2.0.0",
+    "style-loader": "^0.19.1",
+    "supertest": "^3.0.0",
+    "supervisor": "^0.12.0",
+    "webpack": "^3.10.0",
+    "webpack-livereload-plugin": "^1.0.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "co": "^4.6.0",
+    "koa": "^2.4.1",
+    "koa-simple-router": "^0.2.0",
+    "koa-swig": "^2.2.1"
+  }
+}
