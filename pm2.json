@@ -5,9 +5,9 @@
     "exec_mode":"cluster",
     "watch": true,
    "instances":1,
-   "log_date_format":“YYYY-MM-DD HH:mm Z”
-   "error_file":"logs/error_file_log.log"
-   "out_file": "logs/out_file_log.log"
+   "log_date_format":"YYYY-MM-DD HH:mm Z",
+   "error_file":"logs/error_file_log.log",
+   "out_file": "logs/out_file_log.log",
     "env": {
       "NODE_ENV": "development"
     },

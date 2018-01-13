@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf build && gulp && webpack",
-    "run": "supervisor build/app.js"
+    "run": "supervisor build/app.js",
+    "online":"pm2 restart pm2.json"
   },
   "author": "",
   "license": "ISC",
